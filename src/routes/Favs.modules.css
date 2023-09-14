@@ -1,0 +1,52 @@
+.favs {
+  text-align: center;
+  padding: 20px;
+  height: 90vh;
+  padding: 30px;
+}
+
+.title-favs {
+  margin: 0;
+  padding: 30px;
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #3d85c6;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+
+.advertencia {
+  color: #3d85c6;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5%;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+    
+}
+
+.card-favs {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.borrar-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.borrar-button:hover {
+  background-color: #cc0000;
+}
